@@ -1,0 +1,63 @@
+.home__content{
+    justify-content: center;
+    margin: 15% ;
+    text-align: center;
+}
+
+.home__Social{
+    display: flex;
+    column-gap: 5%;
+    justify-content: center;
+}
+
+.home__social-icon{
+    font-size: 1.25rem;
+    color: black
+}
+
+.home__social-icon:hover{
+    color: rgb(78, 51, 160)
+}
+
+.home__title{
+    font-size: 4vw;
+    color: black;
+}
+
+.icon{
+    width: 2vw;
+}
+
+
+.home__subtitle{
+    font-size: 2vw;
+    color: white
+}
+
+.animation{
+    animation: animation 2s forwards;
+  }
+  
+  @keyframes animation {
+    from {
+        opacity: 0;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 2;
+        transform: translateY(-30%);
+
+    }
+
+  }
+@media screen and (max-width:425px) {
+    .home__content{
+        display: flex;
+        justify-content: center;
+        margin-top: 20% ;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
